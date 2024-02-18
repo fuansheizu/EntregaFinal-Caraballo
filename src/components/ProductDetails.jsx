@@ -10,7 +10,7 @@ const Text = () => {
 
 return (
     <div>
-        <button onClick={handleShow}>{show === true ? "Ocultar" : "Mostrar"}</button>
+        <button className="contact-us" onClick={handleShow}>{show === true ? "Ocultar" : "Contáctanos"}</button>
         {show === true && <TextDetails/>}
     </div>
 )

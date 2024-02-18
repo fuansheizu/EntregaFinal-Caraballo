@@ -17,7 +17,7 @@ const ProducstListContainer = () => {
 
     return (
         <div>
-            <ProductsList key={products.id} products={products}/>
+            <ProductsList key={products.id} products={products}/>    
         </div>
     )
 }
